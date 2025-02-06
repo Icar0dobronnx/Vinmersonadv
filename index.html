@@ -8,6 +8,16 @@
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
 <body class="bg-white text-gray-900">
+     <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
     <!-- Header -->
     <header class="fixed top-0 w-full bg-white backdrop-blur-lg shadow-md p-4 flex justify-between items-center z-50">
         <div class="flex items-center space-x-3">
